@@ -19,7 +19,21 @@ A quadtree implementation in Go, featuring insertion and retrieval of bounding b
 
 # Setup
 
-Usage
+Usage:
+```
+git clone https://github.com/JamesMilnerUK/quadtree-go
+cd quadtree-go/main
+go run main.go
+```
+
+result:
+```
+Hello, world.
+[{1 1 10 10} {5 5 10 10}]
+```
+
+
+Example
 ```go
     qt := &quadtree.Quadtree{
 		Bounds: quadtree.Bounds{
